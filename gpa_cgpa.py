@@ -3,11 +3,6 @@ import time
 
 print("Welcome to GPA / CGPA Calculator! ")
 
-#semesterNumber = int(input("Which semester do you in (Ex:5)?: "))
-#for kh in range(0,semesterNumber-1):
-# semesterName = input("Enter Your "+str(kh+1)+". semester GPA: ")
-#list4.append(semesterName)
-
 def startGame():
 
   def gpaCalculator():
@@ -163,11 +158,10 @@ def startGame():
       list5.append(lessonName1)
   
     artan1 = 0
-    #print(list5)
 
     for ae in range(0,len(list5)):
       m,n = input("Enter Your "+str(list5[artan1])+" Lesson's Letter Grade and Credit(Leave Blank between them): ").split()
-      #list4.append(credit)
+      
       totalCredit1 = float(n) + totalCredit1
       n = int(n)
       m = m.upper()
@@ -205,9 +199,7 @@ def startGame():
       total4 = total4 + list7[ag]
 
     totalGpa1 = total3 / total4
-    #print(totalGpa1)
-
-    #print(total1,total2)
+    
 
     total5 = 0
 
@@ -216,7 +208,7 @@ def startGame():
   
     total6 = total5 + totalGpa1*totalCredit1
     print(total5,totalCredit1,total6)
-    #print(total5)
+    
 
     totalCgpa1 = total6 / (totalCredit+totalCredit1)
 
@@ -225,7 +217,7 @@ def startGame():
   
   choice = input("\nType 1 for GPA,Type 0 for GPA-CGPA: ")
 
-  #print(choice.isdigit())
+  
 
   while choice.isdigit() == False:
     print("\nPlease enter 1 or 0")
