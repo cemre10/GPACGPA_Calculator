@@ -16,13 +16,11 @@ def startGame():
       lessonName = input("Enter Your "+str(ch+1)+". lesson name: ")
       list3.append(lessonName)
 
-    #print(list3)
-    #print(len(list5))
     artan = 0
 
     for lh in range(0,len(list3)):
       i,j = input("Enter Your "+str(list3[artan])+" Lesson's Letter Grade and Credit(Leave Blank between them): ").split()
-      #list4.append(credit)
+      
       j = int(j)
       i = i.upper()
       if i == "A":
@@ -48,59 +46,7 @@ def startGame():
       list1.append(i)
       list2.append(j)
       artan = artan + 1
-  
-      #print(list6)
-      #num1,credit1 = input("Enter Your Calculus Letter Grade and Credit:").split()
-      #num2,credit2 = input("Enter Your Physics Letter Grade and Credit:").split()
-      #num3,credit3 = input("Enter Your CMPE Letter Grade and Credit:").split()
-      #num4,credit4 = input("Enter Your History Letter Grade and Credit:").split()
-      #num5,credit5 = input("Enter Your English Letter Grade and Credit:").split()
-
-
-      #list1 = [num1,num2,num3,num4,num5]
-      #list3 = [credit1,credit2,credit3,credit4,credit5]
-      #list2 = []
-
-      #for a in list4:
-      #  a = int(a)
-      # list2.append(a)
-
-      #for j in list2:
-    #for i in list1:
-    # i = i.upper()
-      #if i == "A":
-       # i = j*4
-      #elif i == "A-":
-       # i = j*(3.7)
-      #elif i=="B+":
-       # i = j*(3.3) 
-      #elif i == "B":
-       # i = j*(3.0)
-      #elif i == "B-":
-       # i = j*(2.70)
-      #elif i == "C+":
-       # i = j*(2.30)
-      #elif i == "C":
-       # i = j*(2.0)
-      #elif i == "C-":
-       # i = j*(1.7)
-      #elif i == "D":
-       # i = j*(1.0)
-      #else:
-       # i = 0
-      #list3.append(i)
-
-    #print(list1)
-    #print(list2)
-    #print(list3)
-    #print(list4)
-
-    #n1 = list3[0]
-    #n2 = list3[6]
-    #n3 = list3[12]
-    #n4 = list3[18]
-    #n5 = list3[24]
-
+   
     total1 = 0
     total2 = 0
 
@@ -110,32 +56,10 @@ def startGame():
     for fh in range(0,len(list2)):
       total2 = total2 + list2[fh]
 
-    #print(total1,total2)
 
     totalGpa = total1 / total2
 
     print("Your GPA is: ", format(totalGpa,'.2f'))
-
-    #if totalGpa == 4.00:
-    # print("WOW! You are crazy!!! Keep going.")
-    #elif 3.50 <= totalGpa < 4.00:
-    # print("High Honor! Well Done!")
-    #elif 3.00 <= totalGpa < 3.50:
-    # print("Very Good!")
-    #elif 2.50 <= totalGpa < 3.00:
-    # print("Good! You Can Make Better!")
-    #elif 2.00 <= totalGpa < 2.50:
-    # print("Avarage! Work Harder!")
-    #else:
-    # print("Maybe Next Time.")
-
-    #print(n1,n2,n3,n4,n5,credit1,credit2,credit3,credit4,credit5)
-    #print(float(n1+n2+n3+n4+n5))
-    #print(float(credit1+credit2+credit3+credit4+credit5))
-    #number1 = float(credit1+credit2+credit3+credit4+credit5)
-    #number2 = float(n1+n2+n3+n4+n5)
-
-    #print(number2/number1)
 
   def cgpaCalculator():
     list7 = []
