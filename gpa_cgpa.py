@@ -22,10 +22,15 @@ def startGame():
     semesterNumber1 = int(input("Which semester do you in (Ex:5)?: "))
     totalCredit = 0
     totalCredit1 = 0
-    for ac in range(0,semesterNumber1-1):
-      semesterGpa1,semesterCredit = input("Enter Your "+str(ac+1)+". semester GPA and Total Credit number: ").split()
-      totalCredit = totalCredit + float(semesterCredit)
-      list4.append(float(semesterCredit)*float(semesterGpa1))
+
+    if semesterNumber1 != 1:
+      for ac in range(0,semesterNumber1-1):
+        semesterGpa1,semesterCredit = input("Enter Your "+str(ac+1)+". semester GPA and Total Credit number: ").split()
+        totalCredit = totalCredit + float(semesterCredit)
+        list4.append(float(semesterCredit)*float(semesterGpa1))
+    else:
+      gpaCalculator()
+      return
 
     print("Lets Calculate your "+str(semesterNumber1)+". Semester GPA to Find CGPA")
 
