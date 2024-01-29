@@ -19,7 +19,7 @@ Welcome to the GPA / CGPA Calculator! This Python script helps you calculate you
 
 This GPA / CGPA Calculator uses the following letter grade system for calculations:
 
-- **A  :** 4.0
+- **A  :**   4.0
 - **A- :** 3.7
 - **B+ :** 3.3
 - **B  :** 3.0
