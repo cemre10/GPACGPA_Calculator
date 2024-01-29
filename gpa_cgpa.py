@@ -2,7 +2,7 @@ import time
 
 print("Welcome to GPA / CGPA Calculator! ")
 
-def startGame():
+def startCalculator():
 
   def gpaCalculator():
     list1 = []
@@ -69,7 +69,7 @@ def calculateAgain():
     choice1 = input("\nDo you want to Calculate Again (Yes/No)?: ")
     choice1 = choice1.upper()
     if choice1 == "YES":
-        startGame()
+        startCalculator()
     else:
         print("\nGood Bye!")
 
@@ -123,6 +123,6 @@ def calculator(list,boolean):
   else:
     return totalGpa,total2
 
-startGame()
+startCalculator()
 
 time.sleep(3) 
