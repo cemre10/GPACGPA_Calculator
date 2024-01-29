@@ -39,6 +39,7 @@ Please make sure to input your grades in this format to get accurate GPA and CGP
 ![GPA Calculator](https://img.shields.io/badge/GPA_Calculator-Interactive-brightgreen)
 ![CGPA Calculator](https://img.shields.io/badge/CGPA_Calculator-Advanced-blue)
 
-![]((https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3E1Y3RmMDBwNXdibG4zaWhiNG9zdncwMjltaTJvbGRtazYwdjJsZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KAq5w47R9rmTuvWOWa/giphy.gif)https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3E1Y3RmMDBwNXdibG4zaWhiNG9zdncwMjltaTJvbGRtazYwdjJsZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KAq5w47R9rmTuvWOWa/giphy.gif))
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3E1Y3RmMDBwNXdibG4zaWhiNG9zdncwMjltaTJvbGRtazYwdjJsZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KAq5w47R9rmTuvWOWa/giphy.gif)
+
 
 
