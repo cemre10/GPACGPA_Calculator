@@ -10,21 +10,25 @@ Welcome to the GPA / CGPA Calculator! This Python script helps you calculate you
 
 ## 🎯 How to Use
 
-1. Run the script by executing the `startGame()` function.
+1. Run the script.
 2. Choose between GPA (Type `1`) or CGPA (Type `0`).
 3. Follow the prompts to enter the necessary information, such as the number of lessons, letter grades, and credit hours.
 4. Get your GPA or CGPA displayed on the console.
 
-## 💡 Example
+## 🌟 Supported Letter Grade System
 
-Let's walk through an example together:
+This GPA / CGPA Calculator uses the following letter grade system for calculations:
 
-```python
-# Import the time module
-import time
+- **A**: 4.0
+- **A-**: 3.7
+- **B+**: 3.3
+- **B**: 3.0
+- **B-**: 2.7
+- **C+**: 2.3
+- **C**: 2.0
+- **C-**: 1.7
+- **D**: 1.0
+- **D-**: 0.7
+- **F**: 0.0
 
-# Run the script
-startCalculator()
-
-# Add a delay for a better user experience
-time.sleep(3)
+Please make sure to input your grades in this format to get accurate GPA and CGPA calculations. The program does not support other grading systems, and any input outside of this system may result in inaccurate results.
