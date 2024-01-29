@@ -29,4 +29,4 @@ Here's a brief example of how to use the script:
 
 ```python
 # Run the script
-startGame()
+startCalculator()
